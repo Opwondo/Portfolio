@@ -34,8 +34,8 @@
     <section class="home" id="home">
 
       <div class="home-content">
-        <h1>Hi, it's <span>Wilberforce Opwondo</span></h1>
-        <h3>An aspiring <span>IT professional</span> specializing in <span>Software Engineering</span></h3>
+        <h1>Hi, I am <span>Wilberforce Opwondo</span></h1>
+        <h3>An <span>IT professional</span> specialized in <span>Software Engineering</span></h3>
         <p>I am a dedicated and detail-oriented IT professional with hands-on experience in developing scalable, database-driven desktop applications.</p>
         <div class="social-icons">
           <a href="https://github.com/Opwondo" target="_blank" rel="noopener noreferrer">
@@ -108,6 +108,7 @@
 <!-- Portfolio Section -->
 <section class="portfolio" id="portfolio">
   <h2 class="heading">Portfolio</h2>
+  <h1>My Projects:</h1>
 
   <div class="portfolio-container">
     <!-- Project 1 -->
@@ -206,7 +207,23 @@
 
   <p><strong>Status:</strong> Completed</p>
 </div>
+</section>
 
+<!-- Elevator Pitch Section -->
+<section id="elevator-pitch" style="margin-top: 60px; text-align:center;">
+  <h2>My Elevator Pitch</h2>
+  <p>
+    A short video introduction highlighting my background, skills, and what makes me stand out.
+  </p>
+
+  <!-- Placeholder Image with Button -->
+  <div style="max-width:600px; margin: 20px auto;">
+    <img src="assets/Elevetor Pitch Thumbnail.png" 
+         alt="Elevator Pitch Video" 
+         style="width:100%; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <br><br>
+  <a href="https://drive.google.com/file/d/1jGl6K_PlD2BDuecrA6vmjH_gIsaaUad9/view?usp=sharing" class="btn">▶ Watch Video</a>
+  </div>
 </section>
 
 
@@ -327,6 +344,17 @@
         });
       });
     </script>
+    <script>
+  // select menu icon and navbar
+  let menuIcon = document.querySelector('#menu-icon');
+  let navbar = document.querySelector('.navbar');
+
+  // toggle active class on click
+  menuIcon.onclick = () => {
+    navbar.classList.toggle('active');
+  };
+</script>
+
 
   </body>
 </html>
