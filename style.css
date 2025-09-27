@@ -282,9 +282,9 @@ section {
 
 .portfolio-box img {
   width: 100%;
-  height: 250px;     /* ✅ same fixed height */
-  object-fit: contain; /* ✅ no cropping, but black/empty spaces may appear */
-  background: #000;   /* optional: gives background behind smaller images */
+  height: 250px;     
+  object-fit: contain; 
+  background: #000;   
   display: block;
 }
 
