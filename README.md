@@ -34,4 +34,4 @@
 
 # Hosting
 - Hosted on netlify
-- https://collinslimuliportfolio.netlify.app/
+- https://wilberforceopwondo.netlify.app/
